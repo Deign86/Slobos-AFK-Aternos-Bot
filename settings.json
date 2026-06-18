@@ -1,7 +1,7 @@
 {
-  "name": "Deign's Bot",
+  "name": "Deign's AFK Bot",
   "bot-account": {
-    "username": "DeignAFK",
+    "username": "DeignsBot",
     "password": "",
     "type": "offline"
   },
@@ -31,21 +31,21 @@
       "repeat": true,
       "repeat-delay": 180,
       "messages": [
-        "Deign's AFK bot - keeping this server online 24/7",
-        "Don't mind me, I'm here so Aternos doesn't shut the server down",
-        "Auto-reconnect is on - if I drop, I'll be back in seconds",
-        "Server uptime bot for Deign86's Aternos - powered by mineflayer"
+        "I'm an AFK bot keeping this Aternos server online 24/7",
+        "Deployed by Deign, visit the dashboard for live status",
+        "Stay a while, the server stays online while I'm here",
+        "I never sleep so the server doesn't shut down"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 1000,
+    "max-reconnect-delay": 30000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": false,
+      "enabled": true,
       "radius": 4,
       "speed": 3000
     },
@@ -60,13 +60,13 @@
   },
   "modules": {
     "avoidMobs": true,
-    "combat": false,
+    "combat": true,
     "beds": false,
     "chat": true,
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": false,
+    "attack-mobs": true,
     "auto-eat": true
   },
   "beds": {
@@ -83,6 +83,6 @@
     }
   },
   "chat": {
-    "respond": false
+    "respond": true
   }
 }
