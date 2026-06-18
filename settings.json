@@ -12,7 +12,7 @@
     "try-creative": false
   },
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 0,
     "y": 100,
     "z": 0
@@ -39,23 +39,23 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 1000,
-    "max-reconnect-delay": 30000
+    "auto-reconnect-delay": 10000,
+    "max-reconnect-delay": 300000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": false,
-      "radius": 4,
-      "speed": 3000
+      "enabled": true,
+      "radius": 3,
+      "speed": 2500
     },
     "look-around": {
       "enabled": true,
-      "interval": 3000
+      "interval": 4000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 5000
+      "interval": 8000
     }
   },
   "modules": {
