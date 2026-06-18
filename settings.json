@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "backrooms-5bWt.aternos.me",
-    "port": 25565,
+    "port": 58328,
     "version": "1.20.1",
     "try-creative": false
   },
@@ -27,20 +27,19 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 180,
+      "repeat-delay": 20,
       "messages": [
-        "I'm an AFK bot keeping this Aternos server online 24/7",
-        "Deployed by Deign, visit the dashboard for live status",
-        "Stay a while, the server stays online while I'm here",
-        "I never sleep so the server doesn't shut down"
+        "AFK bot by Deign, reconnecting to keep the server from auto-shutting",
+        "I keep coming back. Aternos keeps kicking. The server stays online.",
+        "Dashboard: /health on the render URL"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 60000,
-    "max-reconnect-delay": 600000
+    "auto-reconnect-delay": 1000,
+    "max-reconnect-delay": 30000
   },
   "movement": {
     "enabled": true,
