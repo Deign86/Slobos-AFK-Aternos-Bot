@@ -24,48 +24,48 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 20,
+      "repeat-delay": 240,
       "messages": [
-        "AFK bot by Deign, reconnecting to keep the server from auto-shutting",
-        "I keep coming back. Aternos keeps kicking. The server stays online.",
-        "Dashboard: /health on the render URL"
+        "AFK bot by Deign",
+        "Standing by to keep the server up",
+        "Visit the render dashboard for my live status"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 1000,
-    "max-reconnect-delay": 30000
+    "auto-reconnect-delay": 60000,
+    "max-reconnect-delay": 600000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 3,
       "speed": 2500
     },
     "look-around": {
       "enabled": true,
-      "interval": 4000
+      "interval": 30000
     },
     "random-jump": {
       "enabled": true,
-      "interval": 8000
+      "interval": 60000
     }
   },
   "modules": {
     "avoidMobs": true,
-    "combat": true,
+    "combat": false,
     "beds": false,
-    "chat": true,
-    "console-commands": true
+    "chat": false,
+    "console-commands": false
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
@@ -76,8 +76,8 @@
     "enabled": false,
     "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
-      "connect": true,
-      "disconnect": true,
+      "connect": false,
+      "disconnect": false,
       "chat": false
     }
   },
