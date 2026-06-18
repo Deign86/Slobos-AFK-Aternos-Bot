@@ -29,11 +29,13 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 240,
+      "repeat-delay": 18,
       "messages": [
         "AFK bot by Deign",
-        "Standing by to keep the server up",
-        "Visit the render dashboard for my live status"
+        "Standing by so the server doesn't auto-shut",
+        "I keep coming back. Dashboard on the render URL.",
+        "Deign runs this server. I'm the bot keeping it online.",
+        "Backrooms modpack is wild. I just stand here and watch."
       ]
     },
     "chat-log": true,
@@ -82,6 +84,6 @@
     }
   },
   "chat": {
-    "respond": false
+    "respond": true
   }
 }
